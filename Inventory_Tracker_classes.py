@@ -56,7 +56,11 @@ class Character:
         self.coinPurse = self.coinPurse + item.getItemCost()
 
     def displayInventory(self):
-        self.inventory.nested_print()
+        for e in self.inventory._hashtable:
+            while e is not None:
+                print(e.key, ":")
+                e.value.displayInformation()
+                break
 
     def getRemainingSpace(self):
         return self.encumbrance
