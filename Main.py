@@ -36,17 +36,16 @@ def Main():
 
             print("\n")
             item_value = shop_choice.storage.get(chosen_item)
-            bought_item = Item(item_value.get("name"), item_value.get("price"), item_value.get("weight"),
-                               item_value.get("type"))
+            bought_item = Item(item_value.get("name"), item_value.get("price"), item_value.get("weight"), item_value.get("type"))
             character.addItem(bought_item)
 
         statement = input("Do you want to continue your shopping?(y/n)")
         if statement == "n":
             break
+    character.displayInventoryProperties()
+    print()
+    character.displayInventoryList()
     print("Thank you for using the Inventory tracker! Safe travels adventurer!!.")
-    print("Here is what you you in your inventory: ")
-    for i in character.inventory:
-        character.inventory.get(i).displayInformation()
 
 
 Main()

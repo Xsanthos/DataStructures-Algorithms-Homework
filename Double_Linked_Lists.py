@@ -102,3 +102,14 @@ class DoubleLiknedList:
 
     def call_last(self):
         return self.tail.data
+
+    def print(self):
+        if self.size == 0:
+            print("List is empty")
+            return
+        itr = self.first
+        while itr:
+            print(itr.data)
+            itr = itr.next
+
+
