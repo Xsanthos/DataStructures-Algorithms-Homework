@@ -87,5 +87,24 @@ class HashMap():
                 print(e.data)
                 e = e.next
 
+    def nested_print(self):
+        def specific_print(hashmap, quantity_var):
+            quantity_var += 1
+            for e in hashmap._hashtable:
+                while e is not None:
+                    if type(e.value) != int and type(e.value) != str:
+                        tab = "\t" * quantity_var
+                        print(tab, e.key, ":")
+                        specific_print(e.value, quantity_var)
+                        break
+                    else:
+                        tab = "\t" * quantity_var
+                        print(tab, e.key, ":", e.value)
+                        break
+        dig_number = 0
+        specific_print(self, dig_number)
+
+
+
 
 
