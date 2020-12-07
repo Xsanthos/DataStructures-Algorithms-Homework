@@ -1,0 +1,218 @@
+{
+  "abacus": {
+    "name": "Abacus",
+    "price": "2",
+    "type": "tool",
+    "weight": "2"
+  },
+  "acid": {
+    "name": "Acid_(vial)",
+    "price": "25",
+    "type": "concoction",
+    "weight": "1"
+  },
+  "alch_fire": {
+    "name": "Alchemist_Fire_(flask)",
+    "price": "50",
+    "type": "concoction",
+    "weight": "1"
+  },
+  "antitoxin": {
+    "name": "Antitoxin",
+    "price": "50",
+    "type": "concoction",
+    "weight": "0"
+  },
+  "arrows": {
+    "name": "Arrows_20",
+    "price": "1",
+    "type": "ammunition",
+    "weight": "1"
+  },
+  "backpack": {
+    "name": "Backpack",
+    "price": "2",
+    "type": "container",
+    "weight": "5"
+  },
+  "ball_bearings": {
+    "name": "Ball_Bearings_1000",
+    "price": "1",
+    "type": "random_item",
+    "weight": "2"
+  },
+  "barrel": {
+    "name": "Barrel",
+    "price": "2",
+    "type": "container",
+    "weight": "70"
+  },
+  "basket": {
+    "name": "Basket",
+    "price": "0.4",
+    "type": "container",
+    "weight": "2"
+  },
+  "bedroll": {
+    "name": "Bedroll",
+    "price": "1",
+    "type": "cloth",
+    "weight": "7"
+  },
+  "bell": {
+    "name": "Bell",
+    "price": "1",
+    "type": "random_item",
+    "weight": "0"
+  },
+  "blanket": {
+    "name": "Blanket",
+    "price": "0.5",
+    "type": "cloth",
+    "weight": "3"
+  },
+  "block_tackle": {
+    "name": "Block_and_Tackle",
+    "price": "1",
+    "type": "random_item",
+    "weight": "5"
+  },
+  "bolts": {
+    "name": "Crossbow_Bolts_20",
+    "price": "1",
+    "type": "ammunition",
+    "weight": "1.5"
+  },
+  "book": {
+    "name": "Book",
+    "price": "25",
+    "type": "random_item",
+    "weight": "5"
+  },
+  "bottle": {
+    "name": "Glass_Bottle",
+    "price": "2",
+    "type": "container",
+    "weight": "2"
+  },
+  "bucket": {
+    "name": "Bucket",
+    "price": "0.05",
+    "type": "container",
+    "weight": "2"
+  },
+  "bullets": {
+    "name": "Sling_Bullets_20",
+    "price": "0.04",
+    "type": "ammunition",
+    "weight": "1.5"
+  },
+  "caltrops": {
+    "name": "Caltrops_20",
+    "price": "1",
+    "type": "random_itme",
+    "weight": "2"
+  },
+  "candle": {
+    "name": "Candle",
+    "price": "0.01",
+    "type": "light",
+    "weight": "0"
+  },
+  "case_bolts": {
+    "name": "Crossbow_Bolt_Case",
+    "price": "1",
+    "type": "container",
+    "weight": "1"
+  },
+  "case_scroll": {
+    "name": "Map_Scroll_Case",
+    "price": "1",
+    "type": "container",
+    "weight": "1"
+  },
+  "chain": {
+    "name": "Chain_10_feet",
+    "price": "5",
+    "type": "random_item",
+    "weight": "10"
+  },
+  "chalk": {
+    "name": "Chalk_1",
+    "price": "0.01",
+    "type": "random_item",
+    "weight": "0"
+  },
+  "chest": {
+    "name": "Chest",
+    "price": "5",
+    "type": "container",
+    "weight": "25"
+  },
+  "climbers_kit": {
+    "name": "Climbers_Kit",
+    "price": "12",
+    "type": "gear",
+    "weight": ""
+  },
+  "clothes_common": {
+    "name": "Traveler_Clothes",
+    "price": "2",
+    "type": "clothing",
+    "weight": "4"
+  },
+  "component_pouch": {
+    "name": "Component_Pouch",
+    "price": "25",
+    "type": "focus",
+    "weight": ""
+  },
+  "crowbar": {
+    "name": "Crowbar",
+    "price": "2",
+    "type": "tool",
+    "weight": ""
+  },
+  "fishing_tackle": {
+    "name": "Fishing_Tackle",
+    "price": "1",
+    "type": "tool",
+    "weight": ""
+  },
+  "flask_tankard": {
+    "name": "Flask_or_Tankard",
+    "price": "0.02",
+    "type": "container",
+    "weight": ""
+  },
+  "grappling_hook": {
+    "name": "Grappling_Hook",
+    "price": "2",
+    "type": "tool",
+    "weight": ""
+  },
+  "hammer": {
+    "name": "Hammer",
+    "price": "",
+    "type": "tool",
+    "weight": "1"
+  },
+  "healers_kit": {
+    "name": "Healers_Kit",
+    "price": "5",
+    "type": "tool",
+    "weight": "10"
+  },
+  "needles": {
+    "name": "Blowgun_Needles_50",
+    "price": "1",
+    "type": "ammunition",
+    "weight": "1"
+  },
+  "sledgehammer": {
+    "name": "Sledgehammer",
+    "price": "2",
+    "type": "tool",
+    "weight": "3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "crystal": {
+    "name": "Crystal",
+    "price": "10",
+    "type": "focus",
+    "weight": "1"
+  },
+  "orb": {
+    "name": "Orb",
+    "price": "20",
+    "type": "focus",
+    "weight": "3"
+  },
+  "rod": {
+    "name": "Rod",
+    "price": "10",
+    "type": "focus",
+    "weight": "2"
+  },
+  "staff": {
+    "name": "Staff",
+    "price": "5",
+    "type": "focus",
+    "weight": "4"
+  },
+  "wand": {
+    "name": "Wand",
+    "price": "10",
+    "type": "focus",
+    "weight": "1"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "amulet": {
+    "name": "Amulet",
+    "price": "5",
+    "type": "holy_symbol",
+    "weight": "1"
+  },
+  "emblem": {
+    "name": "Emblem",
+    "price": "5",
+    "type": "holy_symbol",
+    "weight": "0"
+  },
+  "reliquary": {
+    "name": "Reliquary",
+    "price": "5",
+    "type": "holy_symbol",
+    "weight": "2"
+  },
+  "spring": {
+    "name": "Spring_of_Mistletoe",
+    "price": "1",
+    "type": "focus",
+    "weight": "0"
+  },
+  "totem": {
+    "name": "Totem",
+    "price": "1",
+    "type": "focus",
+    "weight": "0"
+  },
+  "wooden_staff": {
+    "name": "Wooden_Staff",
+    "price": "5",
+    "type": "focus",
+    "weight": "4"
+  },
+  "yew_wand": {
+    "name": "Yew_Wand",
+    "price": "10",
+    "type": "focus",
+    "weight": "1"
+  }
+}
