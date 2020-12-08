@@ -54,7 +54,7 @@ class HashMap():
         for i in range(index, len(self._hashtable)):
             if (self._hashtable[i] != None):
                 if key == self._hashtable[i].key:
-                    print(self._hashtable[i].value)
+                    return self._hashtable[i].value
             else:
                 return None
 

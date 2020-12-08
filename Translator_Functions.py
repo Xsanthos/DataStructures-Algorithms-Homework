@@ -1,5 +1,6 @@
 from Hashmap import *
 
+
 def dict_dig_for_HashMap(dict_to_be_digged):
     hash_map = HashMap()
     for k, v in dict_to_be_digged.items():

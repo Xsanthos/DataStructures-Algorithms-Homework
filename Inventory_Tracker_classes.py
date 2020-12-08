@@ -69,7 +69,7 @@ class Character:
         List = DoubleLiknedList()
         for e in self.inventory._hashtable:
             while e is not None:
-                List.add_first()
+                List.add_first(e)
                 break
         List.print()
 
