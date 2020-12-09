@@ -1,10 +1,10 @@
-class Entry():
+class Entry:
     def __init__(self, key, value):
         self.key = key
         self.value = value
 
 
-class HashMap():
+class HashMap:
     def __init__(self):
 
         self._capacity = 26

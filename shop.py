@@ -58,11 +58,11 @@ general_shop["sledgehammer"] = {"name": "Sledgehammer", "price": "2", "weight": 
 general_shop["healers_kit"] = {"name": "Healers_Kit", "price": "5", "weight": "10", "type": "tool"}
 
 
-with open("invulnerable_vagrant.json", "w") as file:
+with open("./invulnerable_vagrant.json", "w") as file:
     json.dump(invulnerable_vagrant, file, sort_keys=True, indent=2)
 
-with open("gilmores_glorious_goods.json", "w") as file:
+with open("./gilmores_glorious_goods.json", "w") as file:
     json.dump(gilmores_glorious_goods, file, sort_keys=True, indent=2)
 
-with open("general_shop.json", "w") as file:
+with open("./general_shop.json", "w") as file:
     json.dump(general_shop, file, sort_keys=True, indent=2)

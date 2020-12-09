@@ -13,13 +13,16 @@ def Main():
 
     character = Character(character_name, character_strength, character_wealth)
     shop_choice = Shop()
+    print("\n")
 
     while True:
 
         print("Which store do you want to go to?: ")
+        print("\n")
         print("Write 1 to go to the General Goods shop")
         print("Write 2 to go to Gilmores Glorious Goods shop")
         print("Write 3 to go to the Invulnerable Vagrant shop")
+        print("\n")
         choice = input("Input your choice: ")
 
         l = {"1": "general_shop", "2": "gilmores_glorious_goods", "3": "invulnerable_vagrant"}
@@ -29,6 +32,7 @@ def Main():
 
         print("Welcome to our shop!")
         print("Here is what we have available ~~~~~")
+        print("\n")
         shop_choice.printStorage()
         amount_of_items_you_wish_to_buy = int(input("How many items are you looking to buy from this store?: "))
         for i in range(amount_of_items_you_wish_to_buy):
